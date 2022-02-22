@@ -78,6 +78,10 @@ set nu
 set gfn=Fixedsys:h16
 set timeoutlen=300
 set autoindent
+inoremap { {}<Left>
+inoremap {<CR> {<CR>}<Esc>O
+inoremap {{ {
+inoremap {} {}
 let g:sneak#s_next = 1
 let g:vim_markdown_new_list_item_indent = 0
 let g:vim_markdown_auto_insert_bullets = 0
