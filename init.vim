@@ -147,7 +147,7 @@ nnoremap <leader><leader> <c-^>
 
 " Autocommands
 " Follow Rust code style rules
-au Filetype rust source C:\Users\Ethan\AppData\Local\nvim\scripts\spacetab.vim
+au Filetype rust source ~\AppData\Local\nvim\scripts\spacetab.vim
 au Filetype rust set colorcolumn=100
 
 
