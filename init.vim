@@ -127,11 +127,10 @@ set shortmess+=c " dont give ins completion menu messages
 vnoremap <C-h> :nohlsearch<cr>
 nnoremap <C-h> :nohlsearch<cr>
 
-" Neat X clipboard integration
-" ,p will paste clipboard into buffer
-" ,c will copy entire buffer into clipboard
-noremap <leader>v :read !xset --clipboard --output<cr>
-noremap <leader>c :w !xset -ib<cr><cr>
+" Copy Paste Cut
+noremap <leader>v "+gp
+noremap <leader>c "+y
+noremap <leader>x "+x
 
 " Left and right can switch buffers
 nnoremap <left> :bp<CR>
